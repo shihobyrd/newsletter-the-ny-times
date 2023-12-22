@@ -25,6 +25,11 @@
 
       * {
         font: inherit;
+        padding: 0 !important;
+      }
+
+      p {
+        margin: 0 !important;
       }
     </mj-style>
     <mj-style inline="inline">
@@ -37,20 +42,120 @@
     </mj-raw>
     <mj-section mj-class="header">
       <mj-column mj-class="header-top">
-        <mj-text align="center">
+        <mj-text align="center" mj-class="ff-arial">
           <a href="#" target="_blank">View in browser</a>&verbar;<a href="#" target="_blank">nytimes.com</a>
         </mj-text>
       </mj-column>
-
-      <mj-include path="./components/divider.mjml" />
-
+      <mj-include path="./components/thin-divider.mjml" />
       <mj-column mj-class="header-date">
         <mj-image src="./images/logo.png" alt="The New York Times - The Morning" title="The Morning" />
-        <mj-text align="center">
+        <mj-text align="center" mj-class="ff-georgia">
           December 10, 2023
         </mj-text>
       </mj-column>
+    </mj-section>
 
+    <mj-raw>
+      <!-- Hero -->
+    </mj-raw>
+    <mj-section mj-class="hero">
+      <mj-column width="100%">
+        <mj-text mj-class="ff-arial">
+          By Vaughn Vreeland
+        </mj-text>
+        <mj-text mj-class="ff-domine">
+          Good morning. We’ve got seven new cookie recipes that will wow your friends and family.
+        </mj-text>
+        <mj-include path="./components/thick-divider.mjml" />
+        <mj-image src="./images/cookies.jpg" alt="cookies" title="cookies" width="498px" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="ff-domine">
+          Baked with love
+        </mj-text>
+        <mj-text mj-class="ff-georgia">
+          <p>Hi, everyone! I’m Vaughn, a supervising video producer for New York Times Cooking. And today, we’re talking all about cookies. Specifically, what separates the humdrum from the ho-ho-ho, the blasé from the trailblazing, the “just fine” from the “those were the best I’ve ever had.”</p>
+          <br>
+          <p>For the past four years, I, along with my colleagues at NYT Cooking, have put together our favorite holiday cookies for a <a href="#" target="_blank">tradition we call “Cookie Week.”</a> It started as a sort of YouTube cookie swap amid the pandemic — the brainchild of a small but mighty video team, featuring <a href="#" target="_blank">seven Cooking personalities baking up magic</a> over the course of seven days, all shot by the talent themselves, in their homes. It’s now become a full-on multiverse, complete with a stunning spread in the paper of record, daily videos, a newsletter, live events and the most delightful and dazzling cookies the New York Times Cooking team could muster.</p>
+          <br>
+          <p>(We tried to get <a href="#" target="_blank">Mariah</a> but she was too expensive.)</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image src="./images/chocolate-cookies.jpg" alt="chocolate cookies" title="chocolate cookies" width="498px" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="498px">
+        <mj-text mj-class="ff-georgia" align="right">Johnny Miller for The New York Times. Food Stylist: Samantha Seneviratne.
+        </mj-text>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="ff-georgia">
+          <p>Over these four years, I’ve learned a lot about what types of treats folks find outstanding during the holidays. They love twists on nostalgic classics, unexpected flavor combinations and eye-catching decoration. This year, we sought cookies that hit all those marks and beautifully balance each other in a box: electric colors alongside warm, rich tones; citrusy, chocolaty and earthy flavors; a variety of textures, shapes and sizes. With chewy gingerbread blondies, buttery lemon swoops and spicy hot chocolate crinkles (to name a few), I firmly believe there’s something for everyone in this batch.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image src="./images/bakers.jpg" alt="bakers" title="bakers" width="498px" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="498px">
+        <mj-text mj-class="ff-georgia" align="right">New York Times Cooking
+        </mj-text>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="ff-georgia">
+          <p>Above are the seven developers (including myself!) behind all the magic. Eric, whose holiday cookies are as nostalgic as they are evocative; Melissa, whom many consider to be the GOAT (her gingerbread blondies do not disprove that); Sue, whose precise technique and gorgeous flavors always shine; Samantha, who not only developed her own showstopper but also styled all of the cookies for the photo shoot; me, who [insert something nice about Vaughn here]; Yewande, whose cookies are always as stylish as they are brimming with flavor; and Sohla, who has more fun in the kitchen than anyone I’ve ever met and is a baking genius.</p>
+          <br>
+          <p>Though I supervise the video team, I also develop recipes and appear on camera, so I’m in on Cookie Week from the ground floor up. I get asked a lot of questions about the process behind it all: When do we start? What is the brainstorming process like? How do you come up with the ideas?</p>
+          <br>
+          <p>Here are some demystifying facts and figures: Every July we start throwing around ideas (begrudgingly, because it’s still summer and we don’t want to think about the holidays yet). We then approach our Cookie Week squad with a request for four or five ideas each, and from there our editors narrow the list to one that exhibits every cookie quality we look for. It takes weeks of working and reworking, going back for more pitches, and helping the developers to get their cookies just right. I have fond memories of testing out different icing techniques one day in our cooking studio with my pal Samantha, until finally landing on one that felt glamorous and vibrant, yet completely doable for home bakers.</p>
+          <br>
+          <p>To me, that’s the best part about Cookie Week: the rewarding feeling I get when I see people making them all over the world, reaching out to ask me a question or tell me how much their family loved my cookies, or simply commenting on the YouTube video that they can’t wait to try them. Cookie Week is first and foremost about joy — about getting in the kitchen and expressing your love through food.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image src="./images/colorful-cookies.jpg" alt="colorful cookies" title="colorful-cookies" width="498px" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="498px">
+        <mj-text mj-class="ff-georgia" align="right">Johnny Miller for The New York Times. Food Stylist: Samantha Seneviratne.
+        </mj-text>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          <p>This year’s cookies</p>
+          <ul>
+            <li><a href="#" target="_blank">Matcha Latte Cookies</a> by Eric Kim</li>
+            <li><a href="#" target="_blank">Gingerbread Blondies</a> by Melissa Clark</li>
+            <li><a href="#" target="_blank">Neapolitan Checkerboard Cookies</a> by Sue Li</li>
+            <li><a href="#" target="_blank">Technicolor Cookies</a> by Samantha Seneviratne</li>
+            <li><a href="#" target="_blank">Mexican Hot Chocolate Cookies</a> by Vaughn Vreeland</li>
+            <li><a href="#" target="_blank">Lemon Butter Curls</a> by Yewande Komolafe</li>
+            <li><a href="#" target="_blank">Rainbow Rave Cookies
+              </a> by Sohla El-Waylly</li>
+          </ul>
+        </mj-text>
+        <mj-include path="./components/thin-divider.mjml" />
+        <mj-text>
+          <p>Don’t miss the best of Cookie Week. Subscribe to Cooking.</p>
+          <p>A Cooking subscription brings you easy recipes plus step-by-step guides, videos, photos and more. <a href="#" target="_blank">Subscribe and save 50%</a> on your first year of Cooking.</p>
+        </mj-text>
+        <mj-include path="./components/thin-divider.mjml" />
+      </mj-column>
     </mj-section>
   </mj-body>
 </mjml>
