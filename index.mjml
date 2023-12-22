@@ -3,8 +3,8 @@
     <mj-attributes>
       <mj-text padding="0" />
       <mj-section padding="0" />
-      <mj-class name="ff-arial" font-family="Arial" />
-      <mj-class name="ff-georgia" font-family="Georgia" />
+      <mj-class name="ff-arial" font-family="Arial, sans-serif" />
+      <mj-class name="ff-georgia" font-family="Georgia, serif" />
       <mj-font name="Domine" href="https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap" />
       <mj-class name="ff-domine" font-family="Domine, Georgia" />
       <mj-class name="clr-dark-100" color="#888" />
@@ -25,13 +25,13 @@
 
       * {
         font: inherit;
-        padding: 0 !important;
       }
 
       p {
         margin: 0 !important;
       }
     </mj-style>
+
     <mj-style inline="inline">
     </mj-style>
   </mj-head>
@@ -40,13 +40,18 @@
     <mj-raw>
       <!-- Header -->
     </mj-raw>
-    <mj-section mj-class="header">
-      <mj-column mj-class="header-top">
-        <mj-text align="center" mj-class="ff-arial">
-          <a href="#" target="_blank">View in browser</a>&verbar;<a href="#" target="_blank">nytimes.com</a>
+    <mj-section padding="0">
+      <mj-column mj-class="header-top" padding="10px 0">
+        <mj-text align="center" mj-class="ff-arial clr-dark-300" font-size="12px" line-height="18px">
+          <a href="#" target="_blank" style="color: #666; text-decoration: none; font-size: 12px; line-height: 18px; padding-right: 20px !important
+          ;">View in browser</a>&verbar;<a href="#" target="_blank" style="color: #666; text-decoration: none; font-size: 12px; line-height: 18px; padding-left: 20px !important;">nytimes.com</a>
         </mj-text>
       </mj-column>
-      <mj-include path="./components/thin-divider.mjml" />
+    </mj-section>
+
+    <mj-include path="./components/thin-divider.mjml" />
+
+    <mj-section>
       <mj-column mj-class="header-date">
         <mj-image src="./images/logo.png" alt="The New York Times - The Morning" title="The Morning" />
         <mj-text align="center" mj-class="ff-georgia">
@@ -54,6 +59,8 @@
         </mj-text>
       </mj-column>
     </mj-section>
+
+    <mj-include path="./components/thin-divider.mjml" />
 
     <mj-raw>
       <!-- Hero -->
@@ -66,12 +73,14 @@
         <mj-text mj-class="ff-domine">
           Good morning. We’ve got seven new cookie recipes that will wow your friends and family.
         </mj-text>
-        <mj-include path="./components/thick-divider.mjml" />
-        <mj-image src="./images/cookies.jpg" alt="cookies" title="cookies" width="498px" />
       </mj-column>
     </mj-section>
+
+    <mj-include path="./components/thick-divider.mjml" />
+
     <mj-section>
       <mj-column>
+        <mj-image src="./images/cookies.jpg" alt="cookies" title="cookies" width="498px" />
         <mj-text mj-class="ff-domine">
           Baked with love
         </mj-text>
@@ -84,6 +93,7 @@
         </mj-text>
       </mj-column>
     </mj-section>
+
     <mj-section>
       <mj-column>
         <mj-image src="./images/chocolate-cookies.jpg" alt="chocolate cookies" title="chocolate cookies" width="498px" />
@@ -154,22 +164,27 @@
               </a> by Sohla El-Waylly</li>
           </ul>
         </mj-text>
-        <mj-include path="./components/thin-divider.mjml" />
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/thin-divider.mjml" />
+
+    <mj-section>
+      <mj-column>
         <mj-text mj-class="ff-georgia">
           <p>Don’t miss the best of Cookie Week. Subscribe to Cooking.</p>
           <p>A Cooking subscription brings you easy recipes plus step-by-step guides, videos, photos and more. <a href="#" target="_blank">Subscribe and save 50%</a> on your first year of Cooking.</p>
         </mj-text>
-        <mj-include path="./components/thin-divider.mjml" />
       </mj-column>
     </mj-section>
 
+    <mj-include path="./components/thick-divider.mjml" />
 
     <mj-raw>
       <!-- Hero -->
     </mj-raw>
     <mj-section>
       <mj-column>
-        <mj-include path="./components/thick-divider.mjml" />
         <mj-text mj-class="ff-arial" font-weight="700">
           NEWS
         </mj-text>
