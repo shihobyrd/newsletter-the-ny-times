@@ -93,6 +93,7 @@
       <mj-column width="498px">
         <mj-text mj-class="ff-georgia" align="right">Johnny Miller for The New York Times. Food Stylist: Samantha Seneviratne.
         </mj-text>
+      </mj-column>
     </mj-section>
     <mj-section>
       <mj-column>
@@ -110,6 +111,7 @@
       <mj-column width="498px">
         <mj-text mj-class="ff-georgia" align="right">New York Times Cooking
         </mj-text>
+      </mj-column>
     </mj-section>
     <mj-section>
       <mj-column>
@@ -133,11 +135,14 @@
       <mj-column width="498px">
         <mj-text mj-class="ff-georgia" align="right">Johnny Miller for The New York Times. Food Stylist: Samantha Seneviratne.
         </mj-text>
+      </mj-column>
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-text>
-          <p>This year’s cookies</p>
+        <mj-text mj-class="ff-domine" font-weight="700">
+          <p mj-class="ff-georgia">This year’s cookies</p>
+        </mj-text>
+        <mj-text mj-class="ff-georgia">
           <ul>
             <li><a href="#" target="_blank">Matcha Latte Cookies</a> by Eric Kim</li>
             <li><a href="#" target="_blank">Gingerbread Blondies</a> by Melissa Clark</li>
@@ -150,11 +155,99 @@
           </ul>
         </mj-text>
         <mj-include path="./components/thin-divider.mjml" />
-        <mj-text>
+        <mj-text mj-class="ff-georgia">
           <p>Don’t miss the best of Cookie Week. Subscribe to Cooking.</p>
           <p>A Cooking subscription brings you easy recipes plus step-by-step guides, videos, photos and more. <a href="#" target="_blank">Subscribe and save 50%</a> on your first year of Cooking.</p>
         </mj-text>
         <mj-include path="./components/thin-divider.mjml" />
+      </mj-column>
+    </mj-section>
+
+
+    <mj-raw>
+      <!-- Hero -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-include path="./components/thick-divider.mjml" />
+        <mj-text mj-class="ff-arial" font-weight="700">
+          NEWS
+        </mj-text>
+        <mj-text mj-class="ff-arial" font-weight="700">
+          Israel-Hamas War
+        </mj-text>
+        <mj-text mj-class="ff-georgia">
+          <ul>
+            <li>Israel <a href="#" target="_blank">said some Hamas fighters had surrendered</a> in northern Gaza, and that it had intensified its offensive in the south.</li>
+            <li>The <a href="#" target="_blank">University of Pennsylvania’s president resigned</a>, days after a congressional hearing during which she appeared to dodge a question about whether students who called for the genocide of Jews should be punished.</li>
+            <li>The State Department <a href="#" target="_blank">bypassed Congress</a> to push through a government sale of tank ammunition to Israel.</li>
+            <li>For years, Qatar sent of millions of dollars to Gaza, which helped prop up Hamas. Benjamin Netanyahu’s government <a href="#" target="_blank">encouraged the payments</a>, believing that a steady flow of money maintained peace.</li>
+            <li>The Iranian-backed Houthi militia threatened to <a href="#" target="_blank">block any ship sailing to Israeli ports</a>, expanding previous threats against vessels owned or operated by Israelis.</li>
+            <li>Egypt’s president, Abdel Fattah el-Sisi, was unpopular before the Oct. 7 attacks. <a href="#" target="_blank">The war boosted his political standing</a> ahead of a presidential election today.</li>
+            <li>As the war continues, protesters are increasingly <a href="#" target="_blank">invoking colonialism and its legacy</a>.</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="ff-arial" font-weight="700">
+          International
+        </mj-text>
+        <mj-image src="./images/Wan Chai District.jpg" alt="Wan Chai District" title="Wan Chai District" width="498px" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="498px">
+        <mj-text mj-class="ff-georgia" align="left">In Wan Chai District. Anthony Kwan for The New York Times
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="ff-georgia">
+          <ul>
+            <li>Neon signs — now the target of a safety crackdown — have become <a href="#" target="_blank">a symbol of what’s fading in Hong Kong</a> under Beijing’s control, Hannah Beech writes.</li>
+            <li>Azerbaijan, a major oil and gas producer, is expected to host <a href="#" target="_blank">next year’s United Nations climate summit</a>, ending a monthslong standoff.</li>
+            <li>At least 14 people were killed as residents of a small farming town in central Mexico <a href="#" target="_blank">fought back against a cartel’s extortion attempt</a>, the authorities said.</li>
+          </ul>
+        </mj-text>
+        <mj-text mj-class="ff-arial" font-weight="700">
+          International
+        </mj-text>
+        <mj-text mj-class="ff-georgia">
+          <ul>
+            <li>Current and former European diplomats are concerned that Donald Trump could <a href="#" target="_blank">pull the U.S. out of NATO</a> if he wins a second term as president.</li>
+            <li>Trump and his allies are doing little to allay concerns about his autocratic instincts. If anything, they seem to be <a href="#" target="_blank">leaning into the predictions</a>, Peter Baker writes.</li>
+            <li>The A.C.L.U. <a href="#" target="_blank">agreed to represent the National Rifle Association</a> in a free-speech case before the Supreme Court, but maintained that it does not support the organization’s mission.</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="ff-arial" font-weight="700">
+          Other Big Stories
+        </mj-text>
+        <mj-image src="./images/Shohei Ohtani.jpg" alt="Shohei Ohtani" title="Shohei Ohtani" width="498px" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="498px">
+        <mj-text mj-class="ff-georgia" align="left">Shohei Ohtani Hiroko Masuike/The New York Times
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="ff-georgia">
+          <ul>
+            <li>Shohei Ohtani, the most coveted free agent in baseball, signed a 10-year, <a href="#" target="_blank">$700 million contract with Los Angeles Dodgers</a>.</li>
+            <li>Towns and cities in the U.S. use services that offer to destroy seized or surrendered guns. But some of those guns instead <a href="#" target="_blank">fuel a secondary arms market</a>.</li>
+            <li>In 1973, a team of climbers died on Aconcagua, one of the world’s largest mountains. <a href="#" target="_blank">A newly discovered camera</a> is stirring questions about the disaster.</li>
+            <li>“<a href="#" target="_blank">Effective Accelerationism</a>,” an eccentric movement that wants to avoid limits on A.I., is gaining steam in Silicon Valley, Kevin Roose writes.</li>
+          </ul>
+        </mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
