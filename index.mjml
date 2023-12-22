@@ -1,0 +1,32 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text padding="0" />
+      <mj-section padding="0" />
+      <mj-class name="ff-arial" font-family="Arial" />
+      <mj-class name="ff-georgia" font-family="Georgia" />
+      <mj-font name="Domine" href="https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap" />
+      <mj-class name="ff-domine" font-family="Domine, Georgia" />
+      <mj-class name="clr-dark-100" color="#888" />
+      <mj-class name="clr-dark-300" color="#666" />
+      <mj-class name="clr-dark-500" color="#333" />
+      <mj-class name="clr-dark-700" color="#222" />
+      <mj-class name="clr-dark-900" color="#000" />
+      <mj-class name="clr-link" color="#286ed0" />
+    </mj-attributes>
+    <mj-title>The Morning: Cookies for the holidays</mj-title>
+    <mj-preview>The Morning: Cookies for the holidays</mj-preview>
+    <mj-style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+    </mj-style>
+  </mj-head>
+
+  <mj-body>
+  </mj-body>
+</mjml>
