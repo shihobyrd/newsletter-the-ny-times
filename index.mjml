@@ -22,11 +22,35 @@
       *::after {
         box-sizing: border-box;
       }
+
+      * {
+        font: inherit;
+      }
     </mj-style>
     <mj-style inline="inline">
     </mj-style>
   </mj-head>
 
   <mj-body>
+    <mj-raw>
+      <!-- Header -->
+    </mj-raw>
+    <mj-section mj-class="header">
+      <mj-column mj-class="header-top">
+        <mj-text align="center">
+          <a href="#" target="_blank">View in browser</a>&verbar;<a href="#" target="_blank">nytimes.com</a>
+        </mj-text>
+      </mj-column>
+
+      <mj-include path="./components/divider.mjml" />
+
+      <mj-column mj-class="header-date">
+        <mj-image src="./images/logo.png" alt="The New York Times - The Morning" title="The Morning" />
+        <mj-text align="center">
+          December 10, 2023
+        </mj-text>
+      </mj-column>
+
+    </mj-section>
   </mj-body>
 </mjml>
