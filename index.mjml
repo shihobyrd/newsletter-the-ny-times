@@ -52,9 +52,9 @@
     <mj-include path="./components/thin-divider.mjml" />
 
     <mj-section>
-      <mj-column mj-class="header-date">
-        <mj-image src="./images/logo.png" alt="The New York Times - The Morning" title="The Morning" />
-        <mj-text align="center" mj-class="ff-georgia">
+      <mj-column mj-class="header-date" padding-top="20px" padding-bottom="20px">
+        <mj-image src="./images/logo.png" alt="The New York Times - The Morning" title="The Morning" padding="0" width="300px" />
+        <mj-text align="center" mj-class="ff-georgia" padding-top="15px" font-size="12px" line-height="18px">
           December 10, 2023
         </mj-text>
       </mj-column>
