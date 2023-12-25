@@ -433,5 +433,25 @@
       </mj-column>
     </mj-section>
 
+    <mj-include path="./components/thick-divider.mjml" />
+
+    <mj-raw>
+      <!-- The Morning Recommends-->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px">
+          THE MORNING RECOMMENDS …
+        </mj-text>
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px">
+          <p><span style="font-weight: bold;">Go</span> booze-free for the holidays <a href="#" target="_blank">with these tips</a>.</p>
+          <br>
+          <p><span style="font-weight: bold;">Buy</span> these gifts for <a href="#" target="_blank">a frequent traveler</a>.</p>
+          <br>
+          <p style="padding-bottom: 20px;"><span style="font-weight: bold;">Ski</span> in <a href="#" target="_blank">these socks</a>.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
   </mj-body>
 </mjml>
