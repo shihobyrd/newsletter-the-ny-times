@@ -452,6 +452,7 @@
         </mj-text>
       </mj-column>
     </mj-section>
+
     <mj-include path="./components/thick-divider.mjml" />
 
     <mj-raw>
@@ -493,9 +494,48 @@
         <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="30px">
           <p>In this week’s <a href="#" target="_blank">Five Weeknight Dishes</a> newsletter, Emily Weinstein suggests Hanukkah dishes including <a href="#" target="_blank">potato latkes</a> (she tops hers with sour cream and smoked salmon), sheet-pan paprika chicken and sugared doughnuts for a glorious finale.</p>
         </mj-text>
-
       </mj-column>
     </mj-section>
+
+    <mj-include path="./components/thick-divider.mjml" />
+
+    <mj-raw>
+      <!-- Now Time to Play -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px">
+          NOW TIME TO PLAY
+        </mj-text>
+        <mj-image src="./images/spelling bee.png" alt="Spelling bee" title="Spelling bee" width="498px" padding-top="0" padding-bottom="30px" padding-left="0" padding-right="0" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="30px">
+          <p>Here is <a href="#" target="_blank">today’s Spelling Bee</a> Yesterday’s pangram was <span style="font-style: italic;">etymology</span>.</p>
+          <br>
+          <p>Can you put eight historical events — including the first guide dogs, Coco Chanel’s “little black dress” and the rise of glass skyscrapers — in chronological order? <a href="#" target="_blank">Take this week’s Flashback quiz</a>.</p>
+          <br>
+          <p>And here are <a href="#" target="_blank">today’s Mini Crossword, Wordle, Sudoku</a> and <a href="#" target="_blank">Connections</a>.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/thin-divider.mjml" />
+
+    <mj-raw>
+      <!-- Thank you -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="ff-georgia  clr-dark-500" padding-bottom="15px" padding-top="15px" font-size="17px" line-height="25px">
+          <p style="font-weight: bold; padding-bottom: 15px; font-style: italic;">Thanks for spending part of your weekend with The Times.</p>
+          <p style="font-weight: normal; font-style: italic;"><a href="#" target="_blank">Sign up here to get this newsletter in your inbox</a>. Reach our team at <a href="#" target="_blank">themorning@nytimes.com</a>.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./components/thin-divider.mjml" />
 
   </mj-body>
 </mjml>
