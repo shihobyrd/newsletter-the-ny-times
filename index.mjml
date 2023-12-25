@@ -402,5 +402,36 @@
       </mj-column>
     </mj-section>
 
+    <mj-include path="./components/thick-divider.mjml" />
+
+    <mj-raw>
+      <!-- Books-->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px">
+          BOOKS
+        </mj-text>
+        <mj-image src="./images/Horror books.jpg" alt="Anton Thomas" title="Anton Thomas" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="498px">
+        <mj-text mj-class="ff-georgia clr-dark-100" align="right" font-size="11px" font-weight="normal" line-height="11px" letter-spacing=".01em" padding-bottom="20px" padding-top="10px">Timo Lenzen
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px">
+          <p><span style="font-weight: bold;">The Best Horror Books of 2023:</span> It was an amazing year for horror. Here are <a href="#" target="_blank">10 great titles that stood out</a>.</p>
+          <br>
+          <p><span style="font-weight: bold;">Our editors’ picks:</span> “Blackouts,” Justin Torres’s National Book Award-winning novel that explores <a href="#" target="_blank">what it means to be erased from the record</a>, and eight other books.</p>
+          <br>
+          <p style="padding-bottom: 20px;"><span style="font-weight: bold;">Times best sellers:</span> Violet Sorrengail is urged to become a candidate for the elite dragon riders in Rebecca Yarros’s “Fourth Wing,” which claims the top spot on the <a href="#" target="_blank">latest hardcover fiction list</a>.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
   </mj-body>
 </mjml>
