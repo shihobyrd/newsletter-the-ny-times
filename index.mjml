@@ -33,6 +33,7 @@
 
       a:hover {
         text-decoration: none;
+        border-bottom: none !important;
       }
 
       li::marker {
@@ -334,20 +335,69 @@
     <mj-section>
       <mj-column>
         <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px">
-          <p><span style="font-weight: bold;">Labor of love:</span> A self-taught artist-cartographer spent three years <a href="#" target="_blank">drawing a map</a> of the earth and its animal inhabitants.
-            <br>
-            <br>
-          <p><span style="font-weight: bold;">The bonus round:</span> What’s the best “Wheel of Fortune” strategy? <a href="#" target="_blank">Play our game and find out</a>.
-            <br>
-            <br>
-          <p><span style="font-weight: bold;">Fossilized food:</span> Scientists found a 75-million-year-old tyrannosaur fossil with its <a href="#" target="_blank">last meal still in its stomach</a>.
-            <br>
-            <br>
-          <p><span style="font-weight: bold;">Vows:</span> As a single mother for 11 years, she wasn’t sure he would ever find true love. <a href="#" target="_blank">Enter a hockey coach</a> who said he had been waiting his whole life for her.
-            <br>
-            <br>
-          <p><span style="font-weight: bold;">Lives Lived:</span> AMaria Emilia Martin founded “Latino USA,” the longest-running public radio show in the country covering Latino communities, and mentored hundreds of journalists in Central and South America. She <a href="#" target="_blank">died at 72</a>.
-            <br>
+          <p><span style="font-weight: bold;">Labor of love:</span> A self-taught artist-cartographer spent three years <a href="#" target="_blank">drawing a map</a> of the earth and its animal inhabitants.</p>
+          <br>
+          <p><span style="font-weight: bold;">The bonus round:</span> What’s the best “Wheel of Fortune” strategy? <a href="#" target="_blank">Play our game and find out</a>.</p>
+          <br>
+          <p><span style="font-weight: bold;">Fossilized food:</span> Scientists found a 75-million-year-old tyrannosaur fossil with its <a href="#" target="_blank">last meal still in its stomach</a>.</p>
+          <br>
+          <p><span style="font-weight: bold;">Vows:</span> As a single mother for 11 years, she wasn’t sure he would ever find true love. <a href="#" target="_blank">Enter a hockey coach</a> who said he had been waiting his whole life for her.</p>
+          <br>
+          <p style="padding-bottom: 20px;"><span style="font-weight: bold;">Lives Lived:</span> AMaria Emilia Martin founded “Latino USA,” the longest-running public radio show in the country covering Latino communities, and mentored hundreds of journalists in Central and South America. She <a href="#" target="_blank">died at 72</a>.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/thick-divider.mjml" />
+
+    <mj-raw>
+      <!-- Talk | From the Times Magazine -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px">
+          TALK | FROM THE TIMES MAGAZINE
+        </mj-text>
+        <mj-image src="./images/David Bryne.jpg" alt="Anton Thomas" title="Anton Thomas" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="498px">
+        <mj-text mj-class="ff-georgia clr-dark-100" align="left" font-size="11px" font-weight="normal" line-height="11px" letter-spacing=".01em" padding-bottom="20px" padding-top="10px"><span style="color: #666; font-size: 12px;">David Byrne</span> Mamadi Doumbouya for The New York Times
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="ff-arial clr-dark-900" padding-top="20px" padding-bottom="15px" font-size="13px" line-height="18px" font-weight="bold" letter-spacing=".2px">
+          By <a href="#" target="_blank" style="text-decoration: none; border-bottom: 1px solid #ccc;"><span style="color: #000;">David Marchese</span></a>
+        </mj-text>
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px">
+          <p style="font-style:italic;">I spoke with the ever-restless, ever-inquisitive musician David Byrne about curiosity and enchantment.</p>
+          <br>
+          <p style="font-weight: bold;">Do you think curiosity can be cultivated? Or are some people just more curious than others?</p>
+          <br>
+          <p>I think you can develop a willingness to try new things, but curiosity is kind of self-motivated. I sense that for many people, they love the feeling of the familiar and the secure and a place where the answers are. Whether the answers are through religion or their political affiliation or family, there’s a security that comes with that, and that would imply maybe a lack of willingness to be curious and go outside that zone. I’ve been reading about the pre-Enlightenment.</p>
+          <br>
+          <p style="font-weight: bold;">Oh!</p>
+          <br>
+          <p>Which showed a similar kind of thing in some ways. Religion and other things provided all the answers. Then science comes along, and you maintain the how, but the why is now left behind. Max Weber talks about the great disenchantment. That’s when everything in the world seems enchanted, and it’s filled with a kind of spiritual power and then as science and everything starts to take over, things don’t have that magical aura anymore.</p>
+          <br>
+          <p style="font-weight: bold;">Do you feel enchantment about the world?</p>
+          <br>
+          <p>I feel that. I think a lot of people in the sciences feel that, too. They feel that the way things work in physics or biology or whatever it might be is still kind of marvelous. Even though they’re not just saying God or the gods made it this way, it’s still moving and amazing. And this idea of ecology, our awareness of the network or web of connections in physics and nature and biology, there’s a sense of wonder in that connection. It’s not quite religious, but it is amazing.</p>
+          <br>
+          <p style="font-style:italic; padding-bottom: 15px;"><a href="#" target="_blank">Read more of the interview here</a>.</p>
+        </mj-text>
+        <mj-text mj-class="ff-domine clr-dark-900" padding-bottom="10px" font-size="24px" line-height="31px" font-weight="700">
+          <p>More from the magazine</p>
+        </mj-text>
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="20px" padding-left="10px" css-class="list-padding">
+          <ul>
+            <li>“True crime” has become a big business — and <a href="#" target="_blank">an emotional minefield for victims’ families</a>.</li>
+            <li>How do you reinvent yourself after being a global superstar? ​Michael Stipe, the former R.E.M. frontman, is <a href="#" target="_blank">still figuring that out</a>.</li>
+            <li><a href="#" target="_blank">Read the full issue</a>.</li>
+          </ul>
         </mj-text>
       </mj-column>
     </mj-section>
