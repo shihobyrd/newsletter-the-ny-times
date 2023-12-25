@@ -26,16 +26,24 @@
         font: inherit;
       }
 
-      p {
+      p,
+      ul {
         margin: 0 !important;
       }
 
       a:hover {
         text-decoration: none;
       }
+
+      li::marker {
+        font-size: 10px;
+      }
     </mj-style>
 
     <mj-style inline="inline">
+      .list-padding div>ul>li {
+      padding-bottom: 10px !important;
+      }
     </mj-style>
   </mj-head>
 
@@ -87,48 +95,48 @@
         <mj-text mj-class="ff-domine clr-dark-900" padding-bottom="10px" font-size="31px" line-height="34px" font-weight="700">
           Baked with love
         </mj-text>
-        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px">
           <p>Hi, everyone! I’m Vaughn, a supervising video producer for New York Times Cooking. And today, we’re talking all about cookies. Specifically, what separates the humdrum from the ho-ho-ho, the blasé from the trailblazing, the “just fine” from the “those were the best I’ve ever had.”</p>
           <br>
           <p>For the past four years, I, along with my colleagues at NYT Cooking, have put together our favorite holiday cookies for a <a href="#" target="_blank" style="color: #286ed0; ">tradition we call “Cookie Week.”</a> It started as a sort of YouTube cookie swap amid the pandemic — the brainchild of a small but mighty video team, featuring <a href="#" target="_blank" style="color: #286ed0;">seven Cooking personalities baking up magic</a> over the course of seven days, all shot by the talent themselves, in their homes. It’s now become a full-on multiverse, complete with a stunning spread in the paper of record, daily videos, a newsletter, live events and the most delightful and dazzling cookies the New York Times Cooking team could muster.</p>
           <br>
-          <p>(We tried to get <a href="#" target="_blank" style="color: #286ed0; ">Mariah</a> but she was too expensive.)</p>
+          <p>(We tried to get <a href="#" target="_blank" style="color: #286ed0;">Mariah</a> but she was too expensive.)</p>
         </mj-text>
       </mj-column>
     </mj-section>
 
     <mj-section>
       <mj-column>
-        <mj-image src="./images/chocolate-cookies.jpg" alt="chocolate cookies" title="chocolate cookies" width="498px" />
+        <mj-image src="./images/chocolate-cookies.jpg" alt="chocolate cookies" title="chocolate cookies" width="498px" padding-top="15px" padding-bottom="0" padding-left="0" padding-right="0" />
       </mj-column>
     </mj-section>
     <mj-section>
       <mj-column width="498px">
-        <mj-text mj-class="ff-georgia" align="right">Johnny Miller for The New York Times. Food Stylist: Samantha Seneviratne.
+        <mj-text mj-class="ff-georgia clr-dark-100" align="right" font-size="11px" font-weight="normal" line-height="11px" letter-spacing=".01em" padding-bottom="20px" padding-top="10px">Johnny Miller for The New York Times. Food Stylist: Samantha Seneviratne.
         </mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-text mj-class="ff-georgia">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px">
           <p>Over these four years, I’ve learned a lot about what types of treats folks find outstanding during the holidays. They love twists on nostalgic classics, unexpected flavor combinations and eye-catching decoration. This year, we sought cookies that hit all those marks and beautifully balance each other in a box: electric colors alongside warm, rich tones; citrusy, chocolaty and earthy flavors; a variety of textures, shapes and sizes. With chewy gingerbread blondies, buttery lemon swoops and spicy hot chocolate crinkles (to name a few), I firmly believe there’s something for everyone in this batch.</p>
         </mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-image src="./images/bakers.jpg" alt="bakers" title="bakers" width="498px" />
+        <mj-image src="./images/bakers.jpg" alt="bakers" title="bakers" width="498px" padding-top="15px" padding-bottom="0" padding-left="0" padding-right="0" />
       </mj-column>
     </mj-section>
     <mj-section>
       <mj-column width="498px">
-        <mj-text mj-class="ff-georgia" align="right">New York Times Cooking
+        <mj-text mj-class="ff-georgia clr-dark-100" align="right" font-size="11px" font-weight="normal" line-height="11px" letter-spacing=".01em" padding-bottom="20px" padding-top="10px">New York Times Cooking
         </mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-text mj-class="ff-georgia">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px">
           <p>Above are the seven developers (including myself!) behind all the magic. Eric, whose holiday cookies are as nostalgic as they are evocative; Melissa, whom many consider to be the GOAT (her gingerbread blondies do not disprove that); Sue, whose precise technique and gorgeous flavors always shine; Samantha, who not only developed her own showstopper but also styled all of the cookies for the photo shoot; me, who [insert something nice about Vaughn here]; Yewande, whose cookies are always as stylish as they are brimming with flavor; and Sohla, who has more fun in the kitchen than anyone I’ve ever met and is a baking genius.</p>
           <br>
           <p>Though I supervise the video team, I also develop recipes and appear on camera, so I’m in on Cookie Week from the ground floor up. I get asked a lot of questions about the process behind it all: When do we start? What is the brainstorming process like? How do you come up with the ideas?</p>
@@ -141,21 +149,21 @@
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-image src="./images/colorful-cookies.jpg" alt="colorful cookies" title="colorful-cookies" width="498px" />
+        <mj-image src="./images/colorful-cookies.jpg" alt="colorful cookies" title="colorful-cookies" width="498px" padding-top="15px" padding-bottom="0" padding-left="0" padding-right="0" />
       </mj-column>
     </mj-section>
     <mj-section>
       <mj-column width="498px">
-        <mj-text mj-class="ff-georgia" align="right">Johnny Miller for The New York Times. Food Stylist: Samantha Seneviratne.
+        <mj-text mj-class="ff-georgia clr-dark-100" align="right" font-size="11px" font-weight="normal" line-height="11px" letter-spacing=".01em" padding-bottom="20px" padding-top="10px">Johnny Miller for The New York Times. Food Stylist: Samantha Seneviratne.
         </mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-text mj-class="ff-domine" font-weight="700">
-          <p mj-class="ff-georgia">This year’s cookies</p>
+        <mj-text mj-class="ff-domine clr-dark-900" padding-bottom="10px" font-size="24px" line-height="31px" font-weight="700">
+          <p>This year’s cookies</p>
         </mj-text>
-        <mj-text mj-class="ff-georgia">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="20px" padding-left="10px" css-class="list-padding">
           <ul>
             <li><a href="#" target="_blank" style="color: #286ed0;">Matcha Latte Cookies</a> by Eric Kim</li>
             <li><a href="#" target="_blank" style="color: #286ed0;">Gingerbread Blondies</a> by Melissa Clark</li>
@@ -174,9 +182,9 @@
 
     <mj-section>
       <mj-column>
-        <mj-text mj-class="ff-georgia">
-          <p>Don’t miss the best of Cookie Week. Subscribe to Cooking.</p>
-          <p>A Cooking subscription brings you easy recipes plus step-by-step guides, videos, photos and more. <a href="#" target="_blank" style="color: #286ed0;">Subscribe and save 50%</a> on your first year of Cooking.</p>
+        <mj-text mj-class="ff-georgia  clr-dark-500" padding-bottom="15px" padding-top="15px" font-size="17px" line-height="25px">
+          <p style="font-weight: bold; padding-bottom: 15px;">Don’t miss the best of Cookie Week. Subscribe to Cooking.</p>
+          <p style="font-weight: normal;">A Cooking subscription brings you easy recipes plus step-by-step guides, videos, photos and more. <a href="#" target="_blank" style="color: #286ed0;">Subscribe and save 50%</a> on your first year of Cooking.</p>
         </mj-text>
       </mj-column>
     </mj-section>
