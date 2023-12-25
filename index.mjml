@@ -452,6 +452,50 @@
         </mj-text>
       </mj-column>
     </mj-section>
+    <mj-include path="./components/thick-divider.mjml" />
+
+    <mj-raw>
+      <!-- The Week Ahead -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px">
+          THE WEEK AHEAD
+        </mj-text>
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-bottom="10px" font-size="17px" line-height="15px">
+          What to Watch For
+        </mj-text>
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="20px" padding-left="10px" css-class="list-padding">
+          <ul>
+            <li>The Nobel award ceremony is today.</li>
+            <li>Egypt holds presidential elections today.</li>
+            <li>Javier Milei will be sworn in as president of Argentina today.</li>
+            <li>The Golden Globe Award nominations are announced tomorrow.</li>
+            <li>The COP28 climate conference ends on Tuesday.</li>
+            <li>The Federal Reserve is set to decide whether to raise interest rates on Wednesday.</li>
+            <li>Friday is the last day of Hanukkah.</li>
+          </ul>
+        </mj-text>
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="15px" padding-bottom="20px" font-size="17px" line-height="25px">
+          What to Cook This Week
+        </mj-text>
+        <mj-image src="./images/potato latkes.jpg" alt="Wan Chai District" title="Wan Chai District" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="498px">
+        <mj-text mj-class="ff-georgia clr-dark-100" align="right" font-size="11px" font-weight="normal" line-height="11px" letter-spacing=".01em" padding-bottom="20px" padding-top="10px">Joel Goldberg for The New York Times. Food Stylist: Barrett Washburne.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="30px">
+          <p>In this week’s <a href="#" target="_blank">Five Weeknight Dishes</a> newsletter, Emily Weinstein suggests Hanukkah dishes including <a href="#" target="_blank">potato latkes</a> (she tops hers with sour cream and smoked salmon), sheet-pan paprika chicken and sugared doughnuts for a glorious finale.</p>
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
 
   </mj-body>
 </mjml>
