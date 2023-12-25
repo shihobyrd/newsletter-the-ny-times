@@ -41,6 +41,10 @@
     </mj-style>
 
     <mj-style inline="inline">
+      a {
+      color: #286ed0 !important;
+      }
+
       .list-padding div>ul>li {
       padding-bottom: 10px !important;
       }
@@ -98,9 +102,9 @@
         <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px">
           <p>Hi, everyone! I’m Vaughn, a supervising video producer for New York Times Cooking. And today, we’re talking all about cookies. Specifically, what separates the humdrum from the ho-ho-ho, the blasé from the trailblazing, the “just fine” from the “those were the best I’ve ever had.”</p>
           <br>
-          <p>For the past four years, I, along with my colleagues at NYT Cooking, have put together our favorite holiday cookies for a <a href="#" target="_blank" style="color: #286ed0; ">tradition we call “Cookie Week.”</a> It started as a sort of YouTube cookie swap amid the pandemic — the brainchild of a small but mighty video team, featuring <a href="#" target="_blank" style="color: #286ed0;">seven Cooking personalities baking up magic</a> over the course of seven days, all shot by the talent themselves, in their homes. It’s now become a full-on multiverse, complete with a stunning spread in the paper of record, daily videos, a newsletter, live events and the most delightful and dazzling cookies the New York Times Cooking team could muster.</p>
+          <p>For the past four years, I, along with my colleagues at NYT Cooking, have put together our favorite holiday cookies for a <a href="#" target="_blank">tradition we call “Cookie Week.”</a> It started as a sort of YouTube cookie swap amid the pandemic — the brainchild of a small but mighty video team, featuring <a href="#" target="_blank">seven Cooking personalities baking up magic</a> over the course of seven days, all shot by the talent themselves, in their homes. It’s now become a full-on multiverse, complete with a stunning spread in the paper of record, daily videos, a newsletter, live events and the most delightful and dazzling cookies the New York Times Cooking team could muster.</p>
           <br>
-          <p>(We tried to get <a href="#" target="_blank" style="color: #286ed0;">Mariah</a> but she was too expensive.)</p>
+          <p>(We tried to get <a href="#" target="_blank">Mariah</a> but she was too expensive.)</p>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -165,13 +169,13 @@
         </mj-text>
         <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="20px" padding-left="10px" css-class="list-padding">
           <ul>
-            <li><a href="#" target="_blank" style="color: #286ed0;">Matcha Latte Cookies</a> by Eric Kim</li>
-            <li><a href="#" target="_blank" style="color: #286ed0;">Gingerbread Blondies</a> by Melissa Clark</li>
-            <li><a href="#" target="_blank" style="color: #286ed0;">Neapolitan Checkerboard Cookies</a> by Sue Li</li>
-            <li><a href="#" target="_blank" style="color: #286ed0;">Technicolor Cookies</a> by Samantha Seneviratne</li>
-            <li><a href="#" target="_blank" style="color: #286ed0;">Mexican Hot Chocolate Cookies</a> by Vaughn Vreeland</li>
-            <li><a href="#" target="_blank" style="color: #286ed0;">Lemon Butter Curls</a> by Yewande Komolafe</li>
-            <li><a href="#" target="_blank" style="color: #286ed0;">Rainbow Rave Cookies
+            <li><a href="#" target="_blank">Matcha Latte Cookies</a> by Eric Kim</li>
+            <li><a href="#" target="_blank">Gingerbread Blondies</a> by Melissa Clark</li>
+            <li><a href="#" target="_blank">Neapolitan Checkerboard Cookies</a> by Sue Li</li>
+            <li><a href="#" target="_blank">Technicolor Cookies</a> by Samantha Seneviratne</li>
+            <li><a href="#" target="_blank">Mexican Hot Chocolate Cookies</a> by Vaughn Vreeland</li>
+            <li><a href="#" target="_blank">Lemon Butter Curls</a> by Yewande Komolafe</li>
+            <li><a href="#" target="_blank">Rainbow Rave Cookies
               </a> by Sohla El-Waylly</li>
           </ul>
         </mj-text>
@@ -184,7 +188,7 @@
       <mj-column>
         <mj-text mj-class="ff-georgia  clr-dark-500" padding-bottom="15px" padding-top="15px" font-size="17px" line-height="25px">
           <p style="font-weight: bold; padding-bottom: 15px;">Don’t miss the best of Cookie Week. Subscribe to Cooking.</p>
-          <p style="font-weight: normal;">A Cooking subscription brings you easy recipes plus step-by-step guides, videos, photos and more. <a href="#" target="_blank" style="color: #286ed0;">Subscribe and save 50%</a> on your first year of Cooking.</p>
+          <p style="font-weight: normal;">A Cooking subscription brings you easy recipes plus step-by-step guides, videos, photos and more. <a href="#" target="_blank">Subscribe and save 50%</a> on your first year of Cooking.</p>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -192,86 +196,86 @@
     <mj-include path="./components/thick-divider.mjml" />
 
     <mj-raw>
-      <!-- Hero -->
+      <!-- News -->
     </mj-raw>
     <mj-section>
       <mj-column>
-        <mj-text mj-class="ff-arial" font-weight="700">
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px">
           NEWS
         </mj-text>
-        <mj-text mj-class="ff-arial" font-weight="700">
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-bottom="10px" font-size="17px" line-height="15px">
           Israel-Hamas War
         </mj-text>
-        <mj-text mj-class="ff-georgia">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="20px" padding-left="10px" css-class="list-padding">
           <ul>
-            <li>Israel <a href="#" target="_blank" style="color: #286ed0;">said some Hamas fighters had surrendered</a> in northern Gaza, and that it had intensified its offensive in the south.</li>
-            <li>The <a href="#" target="_blank" style="color: #286ed0;">University of Pennsylvania’s president resigned</a>, days after a congressional hearing during which she appeared to dodge a question about whether students who called for the genocide of Jews should be punished.</li>
-            <li>The State Department <a href="#" target="_blank" style="color: #286ed0;">bypassed Congress</a> to push through a government sale of tank ammunition to Israel.</li>
-            <li>For years, Qatar sent of millions of dollars to Gaza, which helped prop up Hamas. Benjamin Netanyahu’s government <a href="#" target="_blank" style="color: #286ed0;">encouraged the payments</a>, believing that a steady flow of money maintained peace.</li>
-            <li>The Iranian-backed Houthi militia threatened to <a href="#" target="_blank" style="color: #286ed0;">block any ship sailing to Israeli ports</a>, expanding previous threats against vessels owned or operated by Israelis.</li>
-            <li>Egypt’s president, Abdel Fattah el-Sisi, was unpopular before the Oct. 7 attacks. <a href="#" target="_blank" style="color: #286ed0;">The war boosted his political standing</a> ahead of a presidential election today.</li>
-            <li>As the war continues, protesters are increasingly <a href="#" target="_blank" style="color: #286ed0;">invoking colonialism and its legacy</a>.</li>
+            <li>Israel <a href="#" target="_blank">said some Hamas fighters had surrendered</a> in northern Gaza, and that it had intensified its offensive in the south.</li>
+            <li>The <a href="#" target="_blank">University of Pennsylvania’s president resigned</a>, days after a congressional hearing during which she appeared to dodge a question about whether students who called for the genocide of Jews should be punished.</li>
+            <li>The State Department <a href="#" target="_blank">bypassed Congress</a> to push through a government sale of tank ammunition to Israel.</li>
+            <li>For years, Qatar sent of millions of dollars to Gaza, which helped prop up Hamas. Benjamin Netanyahu’s government <a href="#" target="_blank">encouraged the payments</a>, believing that a steady flow of money maintained peace.</li>
+            <li>The Iranian-backed Houthi militia threatened to <a href="#" target="_blank">block any ship sailing to Israeli ports</a>, expanding previous threats against vessels owned or operated by Israelis.</li>
+            <li>Egypt’s president, Abdel Fattah el-Sisi, was unpopular before the Oct. 7 attacks. <a href="#" target="_blank">The war boosted his political standing</a> ahead of a presidential election today.</li>
+            <li>As the war continues, protesters are increasingly <a href="#" target="_blank">invoking colonialism and its legacy</a>.</li>
           </ul>
         </mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-text mj-class="ff-arial" font-weight="700">
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="15px" padding-bottom="20px" font-size="17px" line-height="15px">
           International
         </mj-text>
-        <mj-image src="./images/Wan Chai District.jpg" alt="Wan Chai District" title="Wan Chai District" width="498px" />
+        <mj-image src="./images/Wan Chai District.jpg" alt="Wan Chai District" title="Wan Chai District" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
       </mj-column>
     </mj-section>
     <mj-section>
       <mj-column width="498px">
-        <mj-text mj-class="ff-georgia" align="left">In Wan Chai District. Anthony Kwan for The New York Times
+        <mj-text mj-class="ff-georgia clr-dark-100" align="left" font-size="11px" font-weight="normal" line-height="11px" letter-spacing=".01em" padding-bottom="20px" padding-top="10px"><span style="color: #666; font-size: 12px;">In Wan Chai District.</span> Anthony Kwan for The New York Times
         </mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-text mj-class="ff-georgia">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="20px" padding-left="10px" css-class="list-padding">
           <ul>
-            <li>Neon signs — now the target of a safety crackdown — have become <a href="#" target="_blank" style="color: #286ed0;">a symbol of what’s fading in Hong Kong</a> under Beijing’s control, Hannah Beech writes.</li>
-            <li>Azerbaijan, a major oil and gas producer, is expected to host <a href="#" target="_blank" style="color: #286ed0;">next year’s United Nations climate summit</a>, ending a monthslong standoff.</li>
-            <li>At least 14 people were killed as residents of a small farming town in central Mexico <a href="#" target="_blank" style="color: #286ed0;">fought back against a cartel’s extortion attempt</a>, the authorities said.</li>
+            <li>Neon signs — now the target of a safety crackdown — have become <a href="#" target="_blank">a symbol of what’s fading in Hong Kong</a> under Beijing’s control, Hannah Beech writes.</li>
+            <li>Azerbaijan, a major oil and gas producer, is expected to host <a href="#" target="_blank">next year’s United Nations climate summit</a>, ending a monthslong standoff.</li>
+            <li>At least 14 people were killed as residents of a small farming town in central Mexico <a href="#" target="_blank">fought back against a cartel’s extortion attempt</a>, the authorities said.</li>
           </ul>
         </mj-text>
-        <mj-text mj-class="ff-arial" font-weight="700">
-          International
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="15px" padding-bottom="20px" font-size="17px" line-height="15px">
+          Politics
         </mj-text>
-        <mj-text mj-class="ff-georgia">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="20px" padding-left="10px" css-class="list-padding">
           <ul>
-            <li>Current and former European diplomats are concerned that Donald Trump could <a href="#" target="_blank" style="color: #286ed0;">pull the U.S. out of NATO</a> if he wins a second term as president.</li>
-            <li>Trump and his allies are doing little to allay concerns about his autocratic instincts. If anything, they seem to be <a href="#" target="_blank" style="color: #286ed0;">leaning into the predictions</a>, Peter Baker writes.</li>
-            <li>The A.C.L.U. <a href="#" target="_blank" style="color: #286ed0;">agreed to represent the National Rifle Association</a> in a free-speech case before the Supreme Court, but maintained that it does not support the organization’s mission.</li>
+            <li>Current and former European diplomats are concerned that Donald Trump could <a href="#" target="_blank">pull the U.S. out of NATO</a> if he wins a second term as president.</li>
+            <li>Trump and his allies are doing little to allay concerns about his autocratic instincts. If anything, they seem to be <a href="#" target="_blank">leaning into the predictions</a>, Peter Baker writes.</li>
+            <li>The A.C.L.U. <a href="#" target="_blank">agreed to represent the National Rifle Association</a> in a free-speech case before the Supreme Court, but maintained that it does not support the organization’s mission.</li>
           </ul>
         </mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-text mj-class="ff-arial" font-weight="700">
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="15px" padding-bottom="20px" font-size="17px" line-height="15px">
           Other Big Stories
         </mj-text>
-        <mj-image src="./images/Shohei Ohtani.jpg" alt="Shohei Ohtani" title="Shohei Ohtani" width="498px" />
+        <mj-image src="./images/Shohei Ohtani.jpg" alt="Shohei Ohtani" title="Shohei Ohtani" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
       </mj-column>
     </mj-section>
     <mj-section>
       <mj-column width="498px">
-        <mj-text mj-class="ff-georgia" align="left">Shohei Ohtani Hiroko Masuike/The New York Times
+        <mj-text mj-class="ff-georgia clr-dark-100" align="left" font-size="11px" font-weight="normal" line-height="11px" letter-spacing=".01em" padding-bottom="20px" padding-top="10px"><span style="color: #666; font-size: 12px;">Shohei Ohtani</span> Hiroko Masuike/The New York Times
         </mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-text mj-class="ff-georgia">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="20px" padding-left="10px" css-class="list-padding">
           <ul>
-            <li>Shohei Ohtani, the most coveted free agent in baseball, signed a 10-year, <a href="#" target="_blank" style="color: #286ed0;">$700 million contract with Los Angeles Dodgers</a>.</li>
-            <li>Towns and cities in the U.S. use services that offer to destroy seized or surrendered guns. But some of those guns instead <a href="#" target="_blank" style="color: #286ed0;">fuel a secondary arms market</a>.</li>
-            <li>In 1973, a team of climbers died on Aconcagua, one of the world’s largest mountains. <a href="#" target="_blank" style="color: #286ed0;">A newly discovered camera</a> is stirring questions about the disaster.</li>
-            <li>“<a href="#" target="_blank" style="color: #286ed0;">Effective Accelerationism</a>,” an eccentric movement that wants to avoid limits on A.I., is gaining steam in Silicon Valley, Kevin Roose writes.</li>
+            <li>Shohei Ohtani, the most coveted free agent in baseball, signed a 10-year, <a href="#" target="_blank">$700 million contract with Los Angeles Dodgers</a>.</li>
+            <li>Towns and cities in the U.S. use services that offer to destroy seized or surrendered guns. But some of those guns instead <a href="#" target="_blank">fuel a secondary arms market</a>.</li>
+            <li>In 1973, a team of climbers died on Aconcagua, one of the world’s largest mountains. <a href="#" target="_blank">A newly discovered camera</a> is stirring questions about the disaster.</li>
+            <li>“<a href="#" target="_blank">Effective Accelerationism</a>,” an eccentric movement that wants to avoid limits on A.I., is gaining steam in Silicon Valley, Kevin Roose writes.</li>
           </ul>
         </mj-text>
       </mj-column>
