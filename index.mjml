@@ -292,11 +292,11 @@
           FROM OPINION
         </mj-text>
         <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px">
-          <p>Congress needs to approve the <a href="#" target="_blank">military aid package for Israel and Ukraine</a> as an investment in the United States’ security goals, <strong>the editorial board</strong> writes.</p>
+          <p>Congress needs to approve the <a href="#" target="_blank">military aid package for Israel and Ukraine</a> as an investment in the United States’ security goals, <span style="font-weight: bold;">the editorial board</span> writes.</p>
           <br>
-          <p>An increase in immigration makes <a href="#" target="_blank">Americans more conservative</a>. This, if anything, gives Biden good reason to crack down at the border, <strong>Ross Douthat</strong> writes.</p>
+          <p>An increase in immigration makes <a href="#" target="_blank">Americans more conservative</a>. This, if anything, gives Biden good reason to crack down at the border, <span style="font-weight: bold;">Ross Douthat</span> writes.</p>
           <br>
-          <p>Here’s a column by <strong>Maureen Dowd</strong> on <a href="#" target="_blank">antisemitism</a>.</p>
+          <p>Here’s a column by <span style="font-weight: bold;">Maureen Dowd</span> on <a href="#" target="_blank">antisemitism</a>.</p>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -307,7 +307,47 @@
       <mj-column>
         <mj-text mj-class="ff-georgia  clr-dark-500" padding-bottom="15px" padding-top="15px" font-size="17px" line-height="25px">
           <p style="font-weight: bold; padding-bottom: 15px;">The Sunday question: Is Ukraine a U.S. priority anymore?</p>
-          <p style="font-weight: normal;">“Ukraine has become a political talking point rather than a national security imperative,” <a href="#" target="_blank">Jonathan Sweet and Mark Toth write for The Hill</a>. But the stakes are high, as a fallen Ukraine could lead Vladimir Putin of Russia to attack “former Soviet satellites-turned-NATO allies, which the United States is treaty-bound to defend,” <a href="#" target="_blank">The Los Angeles Times’s Jackie Calmes writes</a>.</p>
+          <p style="font-weight: normal; padding-bottom: 20px;">“Ukraine has become a political talking point rather than a national security imperative,” <a href="#" target="_blank">Jonathan Sweet and Mark Toth write for The Hill</a>. But the stakes are high, as a fallen Ukraine could lead Vladimir Putin of Russia to attack “former Soviet satellites-turned-NATO allies, which the United States is treaty-bound to defend,” <a href="#" target="_blank">The Los Angeles Times’s Jackie Calmes writes</a>.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/thick-divider.mjml" />
+
+    <mj-raw>
+      <!-- Morning Reads -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px">
+          MORNING READS
+        </mj-text>
+        <mj-image src="./images/Anton Thomas.jpg" alt="Anton Thomas" title="Anton Thomas" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="498px">
+        <mj-text mj-class="ff-georgia clr-dark-100" align="left" font-size="11px" font-weight="normal" line-height="11px" letter-spacing=".01em" padding-bottom="20px" padding-top="10px"><span style="color: #666; font-size: 12px;">Anton Thomas</span> Abigail Varney for The New York Times
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px">
+          <p><span style="font-weight: bold;">Labor of love:</span> A self-taught artist-cartographer spent three years <a href="#" target="_blank">drawing a map</a> of the earth and its animal inhabitants.
+            <br>
+            <br>
+          <p><span style="font-weight: bold;">The bonus round:</span> What’s the best “Wheel of Fortune” strategy? <a href="#" target="_blank">Play our game and find out</a>.
+            <br>
+            <br>
+          <p><span style="font-weight: bold;">Fossilized food:</span> Scientists found a 75-million-year-old tyrannosaur fossil with its <a href="#" target="_blank">last meal still in its stomach</a>.
+            <br>
+            <br>
+          <p><span style="font-weight: bold;">Vows:</span> As a single mother for 11 years, she wasn’t sure he would ever find true love. <a href="#" target="_blank">Enter a hockey coach</a> who said he had been waiting his whole life for her.
+            <br>
+            <br>
+          <p><span style="font-weight: bold;">Lives Lived:</span> AMaria Emilia Martin founded “Latino USA,” the longest-running public radio show in the country covering Latino communities, and mentored hundreds of journalists in Central and South America. She <a href="#" target="_blank">died at 72</a>.
+            <br>
         </mj-text>
       </mj-column>
     </mj-section>
