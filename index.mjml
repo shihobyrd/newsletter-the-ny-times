@@ -58,9 +58,8 @@
     </mj-raw>
     <mj-section padding="0">
       <mj-column mj-class="header-top" padding="10px 0">
-        <mj-text align="center" mj-class="ff-arial clr-dark-300" font-size="12px" line-height="18px">
-          <a href="#" target="_blank" style="color: #666; text-decoration: none; font-size: 12px; line-height: 18px; padding-right: 20px !important
-          ;">View in browser</a>&verbar;<a href="#" target="_blank" style="color: #666; text-decoration: none; font-size: 12px; line-height: 18px; padding-left: 20px !important;">nytimes.com</a>
+        <mj-text align="center" mj-class="ff-arial" font-size="12px" line-height="18px">
+          <a href="#" target="_blank" style="color: #666 !important; text-decoration: none;  padding-right: 20px !important;">View in browser</a><span style="color: #dcdcdc; text-decoration: none; ">&verbar;</span><a href="#" target="_blank" style="color: #666 !important; text-decoration: none;  padding-left: 20px !important;">nytimes.com</a>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -535,7 +534,98 @@
         </mj-text>
       </mj-column>
     </mj-section>
+
     <mj-include path="./components/thin-divider.mjml" />
 
+    <mj-raw>
+      <!-- Footer -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-image src="./images/the morning logo.png" alt="logo" title="logo" padding-top="20px" padding-bottom="20px" padding-left="0" padding-right="0" />
+        <mj-text mj-class="ff-arial clr-dark-500" font-weight="normal" font-size="12px" line-height="18px" padding-bottom="45px">
+          <p><span style="font-weight: 700;">Editor: </span>David Leonhardt</p>
+          <p><span style="font-weight: 700;">News Editor: </span>Tom Wright-Piersanti</p>
+          <p><span style="font-weight: 700;">News Staff: </span>Desiree Ibekwe, Lauren Jackson, Sean Kawasaki-Culligan, Brent Lewis, German Lopez, Ian Prasad Philbrick, Ashley Wu</p>
+          <p><span style="font-weight: 700;">News Assistant: </span>Lyna Bentahar</p>
+          <p><span style="font-weight: 700;">Saturday Writer: </span>Melissa Kirsch</p>
+        </mj-text>
+        <mj-divider border-width="1px" border-style="solid" border-color="#000" padding="0" />
+        <mj-text mj-class="ff-arial clr-dark-300" font-weight="normal" font-size="12px" line-height="15px" padding-bottom="12px" padding-top="12px">
+          <p style="padding-bottom: 7px;">Need help? Review our <a href="#" style="text-decoration: none; color: #286ed0;">newsletter help page</a> or <a href="#" style="text-decoration: none; color: #286ed0;">contact us</a> for assistance.</p>
+          <p style="padding-bottom: 7px;">You received this email because you signed up for the Morning newsletter from The New York Times, or as part of your New York Times account.</p>
+          <p>To stop receiving The Morning, <a href="#" style="text-decoration: none; color: #286ed0;">unsubscribe</a>. To opt out of other promotional emails from The Times, including those regarding The Athletic, <a href="#" style="text-decoration: none; color: #286ed0;">manage your email settings</a>. To opt out of updates and offers sent from The Athletic, <a href="#" style="text-decoration: none; color: #286ed0;">submit a request</a>.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/thin-divider.mjml" />
+
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="ff-arial clr-dark-300" font-weight="normal" font-size="12px" line-height="15px" padding-bottom="12px" padding-top="12px">
+          <p style="padding-bottom: 7px;"><a href="#" style="text-decoration: none; color: #286ed0;">Subscribe to The Times</a></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/thin-divider.mjml" />
+
+    <mj-section>
+      <mj-group>
+        <mj-column width="20%">
+          <mj-text mj-class="ff-arial clr-dark-300" font-weight="normal" font-size="12px" line-height="15px" padding-bottom="12px" padding-top="12px" align="left">
+            <p style="padding-bottom: 7px;">Connect with us on: </p>
+          </mj-text>
+        </mj-column>
+        <mj-column width="8%" padding-right="15px">
+          <mj-image href="#" target="_blank" src="./images/facebook.png" alt="facebook" width="25px" align="left" padding-left="0" padding-right="0" />
+        </mj-column>
+        <mj-column width="8%" padding-right="15px">
+          <mj-image href="#" target="_blank" src="./images/twitter.png" alt="twitter" width="25px" align="left" padding-left="0" padding-right="0" />
+        </mj-column>
+        <mj-column width="64%">
+          <mj-image href="#" target="_blank" src="./images/instagram.png" alt="instagram" width="25px" align="left" padding-left="0" padding-right="0" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-include path="./components/thin-divider.mjml" />
+
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="ff-arial clr-dark-300" font-weight="normal" font-size="12px" line-height="15px" padding-bottom="12px" padding-top="12px">
+          <p><a href="#" style="text-decoration: none; color: #286ed0;">Change Your Email</a><span style="border-right: 1px solid #cdcdcd; margin-right: 10px; padding-left: 10px;"></span><a href="#" style="text-decoration: none; color: #286ed0;">Privacy Policy</a><span style="border-right: 1px solid #cdcdcd; margin-right: 10px; padding-left: 10px;"></span><a href="#" style="text-decoration: none; color: #286ed0;">Contact Us</a><span style="border-right: 1px solid #cdcdcd; margin-right: 10px; padding-left: 10px;"></span><a href="#" style="text-decoration: none; color: #286ed0;">California Notices</a></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/thin-divider.mjml" />
+
+    <mj-section>
+      <mj-group>
+        <mj-column width="30%" vertical-align="middle">
+          <mj-image href="#" target="_blank" src="./images/liveintent.png" alt="liveintent" width="150px" align="left" padding-top="5px" padding-bottom="7px" padding-left="0" padding-right="0" />
+        </mj-column>
+        <mj-column width="5%" vertical-align="middle">
+          <mj-text mj-class="ff-arial clr-dark-300" font-weight="normal" font-size="12px" line-height="15px" padding-top="5px" padding-bottom="7px">
+            <span style="border-right: 1px solid #cdcdcd; margin-right: 10px; padding-left: 10px;">
+          </mj-text>
+        </mj-column>
+        <mj-column width="65%" vertical-align="middle">
+          <mj-image href="#" target="_blank" src="./images/adchoices.png" alt="ad choices" width="70px" align="left" padding-top="5px" padding-bottom="7px" padding-left="0" padding-right="0" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-include path="./components/thin-divider.mjml" />
+
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="ff-arial" color="#999" font-weight="normal" font-size="12px" line-height="15px" padding-bottom="30px" padding-top="10px">
+          <p>The New York Times Company. 620 Eighth Avenue New York, NY 10018</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
