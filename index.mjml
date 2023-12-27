@@ -45,6 +45,31 @@
           padding-left: 15px !important;
           padding-right: 15px !important;
         }
+
+        .hero-heading div {
+          font-size: 19px !important;
+        }
+
+        .large-heading div {
+          font-size: 29px !important;
+        }
+
+        .medium-heading div {
+          font-size: 22px !important;
+        }
+
+        .small-heading div {
+          font-size: 16px !important;
+        }
+
+        .section-heading div {
+          font-size: 15px !important;
+        }
+
+        .paragraph div {
+          font-size: 16px !important;
+        }
+
       }
     </mj-style>
 
@@ -64,7 +89,7 @@
       <!-- Header -->
     </mj-raw>
     <mj-section padding="0">
-      <mj-column mj-class="header-top" padding="10px 0">
+      <mj-column padding="10px 0">
         <mj-text align="center" mj-class="ff-arial" font-size="12px" line-height="18px">
           <a href="#" target="_blank" style="color: #666 !important; text-decoration: none;  padding-right: 20px !important;">View in browser</a><span style="color: #dcdcdc; text-decoration: none; ">&verbar;</span><a href="#" target="_blank" style="color: #666 !important; text-decoration: none;  padding-left: 20px !important;">nytimes.com</a>
         </mj-text>
@@ -95,7 +120,7 @@
         <mj-text mj-class="ff-arial clr-dark-900" padding-top="20px" padding-bottom="15px" font-size="13px" line-height="18px" font-weight="bold" letter-spacing=".2px">
           By Vaughn Vreeland
         </mj-text>
-        <mj-text mj-class="ff-domine clr-dark-900" padding-bottom="20px" font-size="21px" line-height="30px" font-weight="700">
+        <mj-text mj-class="ff-domine clr-dark-900" padding-bottom="20px" font-size="21px" line-height="30px" font-weight="700" css-class="hero-heading">
           Good morning. We’ve got seven new cookie recipes that will wow your friends and family.
         </mj-text>
       </mj-column>
@@ -106,10 +131,10 @@
     <mj-section>
       <mj-column padding-top="20px" css-class="mobile-padding">
         <mj-image src="./images/cookies.jpg" alt="cookies" title="cookies" width="498px" padding-top="15px" padding-bottom="30px" padding-left="0" padding-right="0" />
-        <mj-text mj-class="ff-domine clr-dark-900" padding-bottom="10px" font-size="31px" line-height="34px" font-weight="700">
+        <mj-text mj-class="ff-domine clr-dark-900" padding-bottom="10px" font-size="31px" line-height="34px" font-weight="700" css-class="large-heading">
           Baked with love
         </mj-text>
-        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px" css-class="paragraph">
           <p>Hi, everyone! I’m Vaughn, a supervising video producer for New York Times Cooking. And today, we’re talking all about cookies. Specifically, what separates the humdrum from the ho-ho-ho, the blasé from the trailblazing, the “just fine” from the “those were the best I’ve ever had.”</p>
           <br>
           <p>For the past four years, I, along with my colleagues at NYT Cooking, have put together our favorite holiday cookies for a <a href="#" target="_blank">tradition we call “Cookie Week.”</a> It started as a sort of YouTube cookie swap amid the pandemic — the brainchild of a small but mighty video team, featuring <a href="#" target="_blank">seven Cooking personalities baking up magic</a> over the course of seven days, all shot by the talent themselves, in their homes. It’s now become a full-on multiverse, complete with a stunning spread in the paper of record, daily videos, a newsletter, live events and the most delightful and dazzling cookies the New York Times Cooking team could muster.</p>
@@ -132,7 +157,7 @@
     </mj-section>
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px" css-class="paragraph">
           <p>Over these four years, I’ve learned a lot about what types of treats folks find outstanding during the holidays. They love twists on nostalgic classics, unexpected flavor combinations and eye-catching decoration. This year, we sought cookies that hit all those marks and beautifully balance each other in a box: electric colors alongside warm, rich tones; citrusy, chocolaty and earthy flavors; a variety of textures, shapes and sizes. With chewy gingerbread blondies, buttery lemon swoops and spicy hot chocolate crinkles (to name a few), I firmly believe there’s something for everyone in this batch.</p>
         </mj-text>
       </mj-column>
@@ -150,7 +175,7 @@
     </mj-section>
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px" css-class="paragraph">
           <p>Above are the seven developers (including myself!) behind all the magic. Eric, whose holiday cookies are as nostalgic as they are evocative; Melissa, whom many consider to be the GOAT (her gingerbread blondies do not disprove that); Sue, whose precise technique and gorgeous flavors always shine; Samantha, who not only developed her own showstopper but also styled all of the cookies for the photo shoot; me, who [insert something nice about Vaughn here]; Yewande, whose cookies are always as stylish as they are brimming with flavor; and Sohla, who has more fun in the kitchen than anyone I’ve ever met and is a baking genius.</p>
           <br>
           <p>Though I supervise the video team, I also develop recipes and appear on camera, so I’m in on Cookie Week from the ground floor up. I get asked a lot of questions about the process behind it all: When do we start? What is the brainstorming process like? How do you come up with the ideas?</p>
@@ -174,10 +199,10 @@
     </mj-section>
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-text mj-class="ff-domine clr-dark-900" padding-bottom="10px" font-size="24px" line-height="31px" font-weight="700">
+        <mj-text mj-class="ff-domine clr-dark-900" padding-bottom="10px" font-size="24px" line-height="31px" font-weight="700" css-class="medium-heading">
           <p>This year’s cookies</p>
         </mj-text>
-        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="20px" padding-left="10px" css-class="list-padding">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="20px" padding-left="10px" css-class="list-padding paragraph">
           <ul>
             <li><a href="#" target="_blank">Matcha Latte Cookies</a> by Eric Kim</li>
             <li><a href="#" target="_blank">Gingerbread Blondies</a> by Melissa Clark</li>
@@ -198,9 +223,11 @@
       <!-- Subscription -->
     </mj-raw>
     <mj-section>
-      <mj-column css-class="mobile-padding">
-        <mj-text mj-class="ff-georgia  clr-dark-500" padding-bottom="15px" padding-top="15px" font-size="17px" line-height="25px">
+      <mj-column css-class="mobile-padding" padding-bottom="15px" padding-top="15px">
+        <mj-text mj-class="ff-georgia  clr-dark-500" font-size="17px" line-height="25px" css-class="small-heading">
           <p style="font-weight: bold; padding-bottom: 15px;">Don’t miss the best of Cookie Week. Subscribe to Cooking.</p>
+        </mj-text>
+        <mj-text mj-class="ff-georgia  clr-dark-500" font-size="17px" line-height="25px" css-class="paragraph">
           <p style="font-weight: normal;">A Cooking subscription brings you easy recipes plus step-by-step guides, videos, photos and more. <a href="#" target="_blank">Subscribe and save 50%</a> on your first year of Cooking.</p>
         </mj-text>
       </mj-column>
@@ -213,13 +240,13 @@
     </mj-raw>
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px">
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px" css-class="section-heading">
           NEWS
         </mj-text>
-        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-bottom="10px" font-size="17px" line-height="15px">
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-bottom="10px" font-size="17px" line-height="15px" css-class="section-heading">
           Israel-Hamas War
         </mj-text>
-        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="20px" padding-left="10px" css-class="list-padding">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="20px" padding-left="10px" css-class="list-padding paragraph">
           <ul>
             <li>Israel <a href="#" target="_blank">said some Hamas fighters had surrendered</a> in northern Gaza, and that it had intensified its offensive in the south.</li>
             <li>The <a href="#" target="_blank">University of Pennsylvania’s president resigned</a>, days after a congressional hearing during which she appeared to dodge a question about whether students who called for the genocide of Jews should be punished.</li>
@@ -234,7 +261,7 @@
     </mj-section>
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="15px" padding-bottom="20px" font-size="17px" line-height="15px">
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="15px" padding-bottom="20px" font-size="17px" line-height="15px" css-class="section-heading">
           International
         </mj-text>
         <mj-image src="./images/Wan Chai District.jpg" alt="Wan Chai District" title="Wan Chai District" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
@@ -248,17 +275,17 @@
     </mj-section>
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="20px" padding-left="10px" css-class="list-padding">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="20px" padding-left="10px" css-class="list-padding paragraph">
           <ul>
             <li>Neon signs — now the target of a safety crackdown — have become <a href="#" target="_blank">a symbol of what’s fading in Hong Kong</a> under Beijing’s control, Hannah Beech writes.</li>
             <li>Azerbaijan, a major oil and gas producer, is expected to host <a href="#" target="_blank">next year’s United Nations climate summit</a>, ending a monthslong standoff.</li>
             <li>At least 14 people were killed as residents of a small farming town in central Mexico <a href="#" target="_blank">fought back against a cartel’s extortion attempt</a>, the authorities said.</li>
           </ul>
         </mj-text>
-        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="15px" padding-bottom="20px" font-size="17px" line-height="15px">
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="15px" padding-bottom="20px" font-size="17px" line-height="15px" css-class="section-heading">
           Politics
         </mj-text>
-        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="20px" padding-left="10px" css-class="list-padding">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="20px" padding-left="10px" css-class="list-padding paragraph">
           <ul>
             <li>Current and former European diplomats are concerned that Donald Trump could <a href="#" target="_blank">pull the U.S. out of NATO</a> if he wins a second term as president.</li>
             <li>Trump and his allies are doing little to allay concerns about his autocratic instincts. If anything, they seem to be <a href="#" target="_blank">leaning into the predictions</a>, Peter Baker writes.</li>
@@ -269,7 +296,7 @@
     </mj-section>
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="15px" padding-bottom="20px" font-size="17px" line-height="15px">
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="15px" padding-bottom="20px" font-size="17px" line-height="15px" css-class="section-heading">
           Other Big Stories
         </mj-text>
         <mj-image src="./images/Shohei Ohtani.jpg" alt="Shohei Ohtani" title="Shohei Ohtani" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
@@ -283,7 +310,7 @@
     </mj-section>
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="20px" padding-left="10px" css-class="list-padding">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="20px" padding-left="10px" css-class="list-padding paragraph">
           <ul>
             <li>Shohei Ohtani, the most coveted free agent in baseball, signed a 10-year, <a href="#" target="_blank">$700 million contract with Los Angeles Dodgers</a>.</li>
             <li>Towns and cities in the U.S. use services that offer to destroy seized or surrendered guns. But some of those guns instead <a href="#" target="_blank">fuel a secondary arms market</a>.</li>
@@ -301,10 +328,10 @@
     </mj-raw>
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px">
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px" css-class="section-heading">
           FROM OPINION
         </mj-text>
-        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px" css-class="paragraph">
           <p>Congress needs to approve the <a href="#" target="_blank">military aid package for Israel and Ukraine</a> as an investment in the United States’ security goals, <span style="font-weight: bold;">the editorial board</span> writes.</p>
           <br>
           <p>An increase in immigration makes <a href="#" target="_blank">Americans more conservative</a>. This, if anything, gives Biden good reason to crack down at the border, <span style="font-weight: bold;">Ross Douthat</span> writes.</p>
@@ -317,9 +344,11 @@
     <mj-include path="./components/thin-divider.mjml" />
 
     <mj-section>
-      <mj-column css-class="mobile-padding">
-        <mj-text mj-class="ff-georgia  clr-dark-500" padding-bottom="15px" padding-top="15px" font-size="17px" line-height="25px">
+      <mj-column css-class="mobile-padding" padding-bottom="15px" padding-top="15px">
+        <mj-text mj-class="ff-georgia  clr-dark-500" font-size="17px" line-height="25px" css-class="small-heading">
           <p style="font-weight: bold; padding-bottom: 15px;">The Sunday question: Is Ukraine a U.S. priority anymore?</p>
+        </mj-text>
+        <mj-text mj-class="ff-georgia  clr-dark-500" font-size="17px" line-height="25px" css-class="paragraph">
           <p style="font-weight: normal; padding-bottom: 20px;">“Ukraine has become a political talking point rather than a national security imperative,” <a href="#" target="_blank">Jonathan Sweet and Mark Toth write for The Hill</a>. But the stakes are high, as a fallen Ukraine could lead Vladimir Putin of Russia to attack “former Soviet satellites-turned-NATO allies, which the United States is treaty-bound to defend,” <a href="#" target="_blank">The Los Angeles Times’s Jackie Calmes writes</a>.</p>
         </mj-text>
       </mj-column>
@@ -332,7 +361,7 @@
     </mj-raw>
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px">
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px" css-class="section-heading">
           MORNING READS
         </mj-text>
         <mj-image src="./images/Anton Thomas.jpg" alt="Anton Thomas" title="Anton Thomas" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
@@ -346,7 +375,7 @@
     </mj-section>
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px" css-class="paragraph">
           <p><span style="font-weight: bold;">Labor of love:</span> A self-taught artist-cartographer spent three years <a href="#" target="_blank">drawing a map</a> of the earth and its animal inhabitants.</p>
           <br>
           <p><span style="font-weight: bold;">The bonus round:</span> What’s the best “Wheel of Fortune” strategy? <a href="#" target="_blank">Play our game and find out</a>.</p>
@@ -367,7 +396,7 @@
     </mj-raw>
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px">
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px" css-class="section-heading">
           TALK | FROM THE TIMES MAGAZINE
         </mj-text>
         <mj-image src="./images/David Bryne.jpg" alt="Anton Thomas" title="Anton Thomas" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
@@ -384,7 +413,7 @@
         <mj-text mj-class="ff-arial clr-dark-900" padding-top="20px" padding-bottom="15px" font-size="13px" line-height="18px" font-weight="bold" letter-spacing=".2px">
           By <a href="#" target="_blank" style="text-decoration: none; border-bottom: 1px solid #ccc;"><span style="color: #000;">David Marchese</span></a>
         </mj-text>
-        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px" css-class="paragraph">
           <p style="font-style:italic;">I spoke with the ever-restless, ever-inquisitive musician David Byrne about curiosity and enchantment.</p>
           <br>
           <p style="font-weight: bold;">Do you think curiosity can be cultivated? Or are some people just more curious than others?</p>
@@ -401,10 +430,10 @@
           <br>
           <p style="font-style:italic; padding-bottom: 15px;"><a href="#" target="_blank">Read more of the interview here</a>.</p>
         </mj-text>
-        <mj-text mj-class="ff-domine clr-dark-900" padding-bottom="10px" font-size="24px" line-height="31px" font-weight="700">
+        <mj-text mj-class="ff-domine clr-dark-900" padding-bottom="10px" font-size="24px" line-height="31px" font-weight="700" css-class="medium-heading">
           <p>More from the magazine</p>
         </mj-text>
-        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="20px" padding-left="10px" css-class="list-padding">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="20px" padding-left="10px" css-class="list-padding paragraph">
           <ul>
             <li>“True crime” has become a big business — and <a href="#" target="_blank">an emotional minefield for victims’ families</a>.</li>
             <li>How do you reinvent yourself after being a global superstar? ​Michael Stipe, the former R.E.M. frontman, is <a href="#" target="_blank">still figuring that out</a>.</li>
@@ -421,7 +450,7 @@
     </mj-raw>
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px">
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px" css-class="section-heading">
           BOOKS
         </mj-text>
         <mj-image src="./images/Horror books.jpg" alt="Anton Thomas" title="Anton Thomas" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
@@ -435,7 +464,7 @@
     </mj-section>
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px" css-class="paragraph">
           <p><span style="font-weight: bold;">The Best Horror Books of 2023:</span> It was an amazing year for horror. Here are <a href="#" target="_blank">10 great titles that stood out</a>.</p>
           <br>
           <p><span style="font-weight: bold;">Our editors’ picks:</span> “Blackouts,” Justin Torres’s National Book Award-winning novel that explores <a href="#" target="_blank">what it means to be erased from the record</a>, and eight other books.</p>
@@ -452,10 +481,10 @@
     </mj-raw>
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px">
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px" css-class="section-heading">
           THE MORNING RECOMMENDS …
         </mj-text>
-        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="15px" css-class="paragraph">
           <p><span style="font-weight: bold;">Go</span> booze-free for the holidays <a href="#" target="_blank">with these tips</a>.</p>
           <br>
           <p><span style="font-weight: bold;">Buy</span> these gifts for <a href="#" target="_blank">a frequent traveler</a>.</p>
@@ -472,13 +501,13 @@
     </mj-raw>
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px">
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px" css-class="section-heading">
           THE WEEK AHEAD
         </mj-text>
-        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-bottom="10px" font-size="17px" line-height="15px">
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-bottom="10px" font-size="17px" line-height="15px" css-class="section-heading">
           What to Watch For
         </mj-text>
-        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="20px" padding-left="10px" css-class="list-padding">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="20px" padding-left="10px" css-class="list-padding paragraph">
           <ul>
             <li>The Nobel award ceremony is today.</li>
             <li>Egypt holds presidential elections today.</li>
@@ -489,7 +518,7 @@
             <li>Friday is the last day of Hanukkah.</li>
           </ul>
         </mj-text>
-        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="15px" padding-bottom="20px" font-size="17px" line-height="25px">
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="15px" padding-bottom="20px" font-size="17px" line-height="25px" css-class="section-heading">
           What to Cook This Week
         </mj-text>
         <mj-image src="./images/potato latkes.jpg" alt="Wan Chai District" title="Wan Chai District" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
@@ -503,7 +532,7 @@
     </mj-section>
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="30px">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="30px" css-class="paragraph">
           <p>In this week’s <a href="#" target="_blank">Five Weeknight Dishes</a> newsletter, Emily Weinstein suggests Hanukkah dishes including <a href="#" target="_blank">potato latkes</a> (she tops hers with sour cream and smoked salmon), sheet-pan paprika chicken and sugared doughnuts for a glorious finale.</p>
         </mj-text>
       </mj-column>
@@ -516,7 +545,7 @@
     </mj-raw>
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px">
+        <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px" css-class="section-heading">
           NOW TIME TO PLAY
         </mj-text>
         <mj-image src="./images/spelling bee.png" alt="Spelling bee" title="Spelling bee" width="498px" padding-top="0" padding-bottom="30px" padding-left="0" padding-right="0" />
@@ -524,7 +553,7 @@
     </mj-section>
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="30px">
+        <mj-text mj-class="ff-georgia clr-dark-500" font-size="17px" line-height="25px" font-weight="normal" padding-bottom="30px" css-class="paragraph">
           <p>Here is <a href="#" target="_blank">today’s Spelling Bee</a> Yesterday’s pangram was <span style="font-style: italic;">etymology</span>.</p>
           <br>
           <p>Can you put eight historical events — including the first guide dogs, Coco Chanel’s “little black dress” and the rise of glass skyscrapers — in chronological order? <a href="#" target="_blank">Take this week’s Flashback quiz</a>.</p>
@@ -541,7 +570,7 @@
     </mj-raw>
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-text mj-class="ff-georgia  clr-dark-500" padding-bottom="15px" padding-top="15px" font-size="17px" line-height="25px">
+        <mj-text mj-class="ff-georgia  clr-dark-500" padding-bottom="15px" padding-top="15px" font-size="17px" line-height="25px" css-class="small-heading">
           <p style="font-weight: bold; padding-bottom: 15px; font-style: italic;">Thanks for spending part of your weekend with The Times.</p>
           <p style="font-weight: normal; font-style: italic;"><a href="#" target="_blank">Sign up here to get this newsletter in your inbox</a>. Reach our team at <a href="#" target="_blank">themorning@nytimes.com</a>.</p>
         </mj-text>
