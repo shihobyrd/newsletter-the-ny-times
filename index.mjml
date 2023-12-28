@@ -74,6 +74,28 @@
       padding-left: 20px !important;
       }
 
+      .connect {
+      width: 40% !important;
+      padding-left: 10px !important;
+      }
+
+      .facebook,
+      .twitter {
+      width: 15% !important;
+      }
+
+      .instagram {
+      width: 30% !important;
+      }
+
+      .liveintent {
+      width: 45% !important;
+      }
+
+      .adchoices {
+      width: 45% !important;
+      }
+
       }
     </mj-style>
 
@@ -619,18 +641,18 @@
 
     <mj-section>
       <mj-group>
-        <mj-column width="20%">
+        <mj-column width="30%" css-class="connect" vertical-align="middle">
           <mj-text mj-class="ff-arial clr-dark-300" font-weight="normal" font-size="12px" line-height="15px" padding-bottom="12px" padding-top="12px" align="left">
-            <p style="padding-bottom: 7px;">Connect with us on: </p>
+            <p>Connect with us on: </p>
           </mj-text>
         </mj-column>
-        <mj-column width="8%" padding-right="15px">
+        <mj-column padding-right="15px" css-class="facebook" vertical-align="middle" width="10%">
           <mj-image href="#" target="_blank" src="./images/facebook.png" alt="facebook" width="25px" align="left" padding-left="0" padding-right="0" />
         </mj-column>
-        <mj-column width="8%" padding-right="15px">
+        <mj-column padding-right="15px" css-class="twitter" vertical-align="middle" width="10%">
           <mj-image href="#" target="_blank" src="./images/twitter.png" alt="twitter" width="25px" align="left" padding-left="0" padding-right="0" />
         </mj-column>
-        <mj-column width="64%">
+        <mj-column css-class="instagram" vertical-align="middle" width="50%">
           <mj-image href="#" target="_blank" src="./images/instagram.png" alt="instagram" width="25px" align="left" padding-left="0" padding-right="0" />
         </mj-column>
       </mj-group>
@@ -650,7 +672,7 @@
 
     <mj-section>
       <mj-group>
-        <mj-column width="30%" vertical-align="middle" css-class="mobile-padding">
+        <mj-column width="30%" vertical-align="middle" css-class="mobile-padding liveintent">
           <mj-image href="#" target="_blank" src="./images/liveintent.png" alt="liveintent" width="150px" align="left" padding-top="5px" padding-bottom="7px" padding-left="0" padding-right="0" />
         </mj-column>
         <mj-column width="5%" vertical-align="middle">
@@ -658,7 +680,7 @@
             <span style="border-right: 1px solid #cdcdcd; margin-right: 10px; padding-left: 10px;">
           </mj-text>
         </mj-column>
-        <mj-column width="65%" vertical-align="middle">
+        <mj-column width="65%" vertical-align="middle" css-class="adchoices">
           <mj-image href="#" target="_blank" src="./images/adchoices.png" alt="ad choices" width="70px" align="left" padding-top="5px" padding-bottom="7px" padding-left="0" padding-right="0" />
         </mj-column>
       </mj-group>
