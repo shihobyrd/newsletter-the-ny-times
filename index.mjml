@@ -172,7 +172,7 @@
 
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-image src="./images/chocolate-cookies.jpg" alt="chocolate cookies" title="chocolate cookies" width="498px" padding-top="15px" padding-bottom="0" padding-left="0" padding-right="0" />
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-the-ny-times/main/images/chocolate-cookies.jpg" alt="chocolate cookies" title="chocolate cookies" width="498px" padding-top="15px" padding-bottom="0" padding-left="0" padding-right="0" />
       </mj-column>
     </mj-section>
     <mj-section>
@@ -190,7 +190,7 @@
     </mj-section>
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-image src="./images/bakers.jpg" alt="bakers" title="bakers" width="498px" padding-top="15px" padding-bottom="0" padding-left="0" padding-right="0" />
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-the-ny-times/main/images/bakers.jpg" alt="bakers" title="bakers" width="498px" padding-top="15px" padding-bottom="0" padding-left="0" padding-right="0" />
       </mj-column>
     </mj-section>
     <mj-section>
@@ -214,7 +214,7 @@
     </mj-section>
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-image src="./images/colorful-cookies.jpg" alt="colorful cookies" title="colorful-cookies" width="498px" padding-top="15px" padding-bottom="0" padding-left="0" padding-right="0" />
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-the-ny-times/main/images/colorful-cookies.jpg" alt="colorful cookies" title="colorful-cookies" width="498px" padding-top="15px" padding-bottom="0" padding-left="0" padding-right="0" />
       </mj-column>
     </mj-section>
     <mj-section>
@@ -325,7 +325,7 @@
         <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="15px" padding-bottom="20px" font-size="17px" line-height="15px" css-class="section-heading">
           Other Big Stories
         </mj-text>
-        <mj-image src="./images/Shohei Ohtani.jpg" alt="Shohei Ohtani" title="Shohei Ohtani" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-the-ny-times/main/images/Shohei%20Ohtani.jpg" alt="Shohei Ohtani" title="Shohei Ohtani" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
       </mj-column>
     </mj-section>
     <mj-section>
@@ -390,7 +390,7 @@
         <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px" css-class="section-heading">
           MORNING READS
         </mj-text>
-        <mj-image src="./images/Anton Thomas.jpg" alt="Anton Thomas" title="Anton Thomas" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-the-ny-times/main/images/Anton%20Thomas.jpg" alt="Anton Thomas" title="Anton Thomas" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
       </mj-column>
     </mj-section>
     <mj-section>
@@ -425,7 +425,7 @@
         <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px" css-class="section-heading">
           TALK | FROM THE TIMES MAGAZINE
         </mj-text>
-        <mj-image src="./images/David Bryne.jpg" alt="Anton Thomas" title="Anton Thomas" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-the-ny-times/main/images/David%20Bryne.jpg" alt="Anton Thomas" title="Anton Thomas" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
       </mj-column>
     </mj-section>
     <mj-section>
@@ -479,7 +479,7 @@
         <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px" css-class="section-heading">
           BOOKS
         </mj-text>
-        <mj-image src="./images/Horror books.jpg" alt="Anton Thomas" title="Anton Thomas" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-the-ny-times/main/images/Horror%20books.jpg" alt="Books" title="Books" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
       </mj-column>
     </mj-section>
     <mj-section>
@@ -547,7 +547,7 @@
         <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="15px" padding-bottom="20px" font-size="17px" line-height="25px" css-class="section-heading">
           What to Cook This Week
         </mj-text>
-        <mj-image src="./images/potato latkes.jpg" alt="Wan Chai District" title="Wan Chai District" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-the-ny-times/main/images/Wan%20Chai%20District.jpg" alt="Wan Chai District" title="Wan Chai District" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
       </mj-column>
     </mj-section>
     <mj-section>
@@ -610,7 +610,7 @@
     </mj-raw>
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-image src="./images/the morning logo.png" alt="logo" title="logo" padding-top="20px" padding-bottom="20px" padding-left="0" padding-right="0" />
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-the-ny-times/main/images/logo.png" alt="logo" title="logo" padding-top="20px" padding-bottom="20px" padding-left="0" padding-right="0" />
         <mj-text mj-class="ff-arial clr-dark-500" font-weight="normal" font-size="12px" line-height="18px" padding-bottom="45px">
           <p><span style="font-weight: 700;">Editor: </span>David Leonhardt</p>
           <p><span style="font-weight: 700;">News Editor: </span>Tom Wright-Piersanti</p>
@@ -681,7 +681,7 @@
           </mj-text>
         </mj-column>
         <mj-column width="65%" vertical-align="middle" css-class="adchoices">
-          <mj-image href="#" target="_blank" src="./images/adchoices.png" alt="ad choices" width="70px" align="left" padding-top="5px" padding-bottom="7px" padding-left="0" padding-right="0" />
+          <mj-image href="#" target="_blank" src="https://raw.githubusercontent.com/shihobyrd/newsletter-the-ny-times/main/images/adchoices.png" alt="ad choices" width="70px" align="left" padding-top="5px" padding-bottom="7px" padding-left="0" padding-right="0" />
         </mj-column>
       </mj-group>
     </mj-section>
