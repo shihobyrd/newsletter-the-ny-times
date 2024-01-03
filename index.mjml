@@ -129,7 +129,7 @@
     </mj-raw>
     <mj-section>
       <mj-column padding-top="20px" padding-bottom="20px">
-        <mj-image src="./images/logo.png" alt="The New York Times - The Morning" title="The Morning" padding="0" width="300px" />
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-the-ny-times/main/images/logo.png" alt="The New York Times - The Morning" title="The Morning" padding="0" width="300px" />
         <mj-text align="center" mj-class="ff-georgia" padding-top="15px" font-size="12px" line-height="12px">
           December 10, 2023
         </mj-text>
@@ -156,7 +156,7 @@
 
     <mj-section>
       <mj-column padding-top="20px" css-class="mobile-padding">
-        <mj-image src="./images/cookies.jpg" alt="cookies" title="cookies" width="498px" padding-top="15px" padding-bottom="30px" padding-left="0" padding-right="0" />
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-the-ny-times/main/images/cookies.jpg" alt="cookies" title="cookies" width="498px" padding-top="15px" padding-bottom="30px" padding-left="0" padding-right="0" />
         <mj-text mj-class="ff-domine clr-dark-900" padding-bottom="10px" font-size="31px" line-height="34px" font-weight="700" css-class="large-heading">
           Baked with love
         </mj-text>
@@ -290,7 +290,7 @@
         <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="15px" padding-bottom="20px" font-size="17px" line-height="15px" css-class="section-heading">
           International
         </mj-text>
-        <mj-image src="./images/Wan Chai District.jpg" alt="Wan Chai District" title="Wan Chai District" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-the-ny-times/main/images/Wan%20Chai%20District.jpg" alt="Wan Chai District" title="Wan Chai District" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
       </mj-column>
     </mj-section>
     <mj-section>
@@ -547,7 +547,7 @@
         <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="15px" padding-bottom="20px" font-size="17px" line-height="25px" css-class="section-heading">
           What to Cook This Week
         </mj-text>
-        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-the-ny-times/main/images/Wan%20Chai%20District.jpg" alt="Wan Chai District" title="Wan Chai District" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-the-ny-times/main/images/potato%20latkes.jpg" alt="Wan Chai District" title="Wan Chai District" width="498px" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" />
       </mj-column>
     </mj-section>
     <mj-section>
@@ -574,7 +574,7 @@
         <mj-text mj-class="ff-arial clr-dark-900" font-weight="700" padding-top="5px" padding-bottom="30px" font-size="17px" line-height="25px" css-class="section-heading">
           NOW TIME TO PLAY
         </mj-text>
-        <mj-image src="./images/spelling bee.png" alt="Spelling bee" title="Spelling bee" width="498px" padding-top="0" padding-bottom="30px" padding-left="0" padding-right="0" />
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-the-ny-times/main/images/spelling%20bee.png" alt="Spelling bee" title="Spelling bee" width="498px" padding-top="0" padding-bottom="30px" padding-left="0" padding-right="0" />
       </mj-column>
     </mj-section>
     <mj-section>
@@ -610,7 +610,7 @@
     </mj-raw>
     <mj-section>
       <mj-column css-class="mobile-padding">
-        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-the-ny-times/main/images/logo.png" alt="logo" title="logo" padding-top="20px" padding-bottom="20px" padding-left="0" padding-right="0" />
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-the-ny-times/main/images/the%20morning%20logo.png" alt="logo" title="logo" padding-top="20px" padding-bottom="20px" padding-left="0" padding-right="0" />
         <mj-text mj-class="ff-arial clr-dark-500" font-weight="normal" font-size="12px" line-height="18px" padding-bottom="45px">
           <p><span style="font-weight: 700;">Editor: </span>David Leonhardt</p>
           <p><span style="font-weight: 700;">News Editor: </span>Tom Wright-Piersanti</p>
@@ -647,13 +647,13 @@
           </mj-text>
         </mj-column>
         <mj-column padding-right="15px" css-class="facebook" vertical-align="middle" width="10%">
-          <mj-image href="#" target="_blank" src="./images/facebook.png" alt="facebook" width="25px" align="left" padding-left="0" padding-right="0" />
+          <mj-image href="#" target="_blank" src="https://raw.githubusercontent.com/shihobyrd/newsletter-the-ny-times/main/images/facebook.png" alt="facebook" width="25px" align="left" padding-left="0" padding-right="0" />
         </mj-column>
         <mj-column padding-right="15px" css-class="twitter" vertical-align="middle" width="10%">
-          <mj-image href="#" target="_blank" src="./images/twitter.png" alt="twitter" width="25px" align="left" padding-left="0" padding-right="0" />
+          <mj-image href="#" target="_blank" src="https://raw.githubusercontent.com/shihobyrd/newsletter-the-ny-times/main/images/twitter.png" alt="twitter" width="25px" align="left" padding-left="0" padding-right="0" />
         </mj-column>
         <mj-column css-class="instagram" vertical-align="middle" width="50%">
-          <mj-image href="#" target="_blank" src="./images/instagram.png" alt="instagram" width="25px" align="left" padding-left="0" padding-right="0" />
+          <mj-image href="#" target="_blank" src="https://raw.githubusercontent.com/shihobyrd/newsletter-the-ny-times/main/images/instagram.png" alt="instagram" width="25px" align="left" padding-left="0" padding-right="0" />
         </mj-column>
       </mj-group>
     </mj-section>
@@ -673,7 +673,7 @@
     <mj-section>
       <mj-group>
         <mj-column width="30%" vertical-align="middle" css-class="mobile-padding liveintent">
-          <mj-image href="#" target="_blank" src="./images/liveintent.png" alt="liveintent" width="150px" align="left" padding-top="5px" padding-bottom="7px" padding-left="0" padding-right="0" />
+          <mj-image href="#" target="_blank" src="https://raw.githubusercontent.com/shihobyrd/newsletter-the-ny-times/main/images/liveintent.png" alt="liveintent" width="150px" align="left" padding-top="5px" padding-bottom="7px" padding-left="0" padding-right="0" />
         </mj-column>
         <mj-column width="5%" vertical-align="middle">
           <mj-text mj-class="ff-arial clr-dark-300" font-weight="normal" font-size="12px" line-height="15px" padding-top="5px" padding-bottom="7px">
